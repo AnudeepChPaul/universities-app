@@ -1,0 +1,29 @@
+.university-card {
+  min-width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto 0;
+  background-color: #448aff;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.university-card-content {
+  margin-left: 9px;
+  flex: 1;
+}
+
+.university-card h2 {
+  margin: 9px 0;
+}
+
+.university-card h3 {
+  margin: 11px 0;
+}
+
+h3 > a {
+  text-decoration: none;
+  color: #ffffff;
+}

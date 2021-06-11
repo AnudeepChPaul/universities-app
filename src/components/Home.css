@@ -1,0 +1,50 @@
+.home {
+  color: #ffffff;
+}
+
+.pagination-bar {
+  background-color: #7c4dff;
+  padding: 16px;
+  width: 1000px;
+  margin: 25px auto;
+  border-radius: 5px;
+}
+
+.pagination-selection {
+  border: none;
+  padding: 9px 16px;
+  font-size: 1.2rem;
+  background-color: #6200ea;
+  border-radius: 5px;
+  margin: 0 auto 9px;
+  color: #ffffff;
+}
+
+.pagination-selection::-webkit-scrollbar {
+  display: none;
+}
+
+.paginated-buttons {
+  background-color: #80cbc4;
+  padding: 10px;
+  width: 64px;
+  border: none;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+
+.university-list {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 36px 0;
+  background-color: #82b1ff;
+  border-radius: 5px;
+}
+
+.university-list > .university-card {
+  flex: 0 1 33%;
+}

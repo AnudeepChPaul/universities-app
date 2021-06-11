@@ -1,0 +1,29 @@
+.details {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.details-inner {
+  width: 1000px;
+  height: 500px;
+  margin: 25px auto;
+
+  background-color: #4db6ac;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.university-details {
+  width: 800px;
+  height: 300px;
+  margin: 25px auto;
+
+  background-color: #00897b;
+  border-radius: 5px;
+}
